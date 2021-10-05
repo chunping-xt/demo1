@@ -10,10 +10,9 @@
 import streamlit as st
 import feedparser
 from urllib.parse import quote
-import streamlit.state as state
 
 
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
 #st.markdown("<h2 style='text-align: center; font-family: Verdana; color: red;'>Tin tức tổng hợp 24h qua</h2><br>", unsafe_allow_html=True)
 #st.markdown("<h4 style='text-align: center;'>Tìm kiếm theo từ khóa hoặc tên báo (ví dụ: Hà Nội, Vaccine, Mạng xã hội, Trí tuệ nhân tạo, cafebiz.vn, Mỹ...)</h4><br>", unsafe_allow_html=True)
 #-----------------------------------------------------------------------------------
