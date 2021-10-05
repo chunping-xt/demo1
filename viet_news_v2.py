@@ -75,7 +75,7 @@ if st.sidebar.button('Tìm kiếm 🔎'):
 #-----------------------------------------------------------------------------------
 # Báo tiếng Anh
 #-----------------------------------------------------------------------------------
-st.sidebar.write("-------------------------------")
+# st.sidebar.write("-------------------------------")
 st.sidebar.title("English News")
 # Custom keywords
 keyword_en = st.sidebar.text_input("Input/Delete keyword", "AI")
